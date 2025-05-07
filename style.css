@@ -5,7 +5,7 @@ body {
     padding: 20px;
     color: #333;
 }
-h1 {
+h1, h2 {
     color: #007bff;
 }
 a {
@@ -24,4 +24,7 @@ a:hover {
     font-size: 0.9em;
     color: #666;
     margin-top: 20px;
+}
+.hidden {
+    display: none;
 }
