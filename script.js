@@ -5,12 +5,10 @@ function checkPassword() {
     if (input === key) {
         const finalLink = link();
 
-        const linksDiv = document.getElementById('links');
-        linksDiv.innerHTML = `
-            <a href="${finalLink}">📱 Установить Hiddify (iOS)</a>
-            <a href="${finalLink}">📱 Установить Hiddify (Android)</a>
-        `;
-        linksDiv.style.display = 'block';
+        document.getElementById('ios-link').href = finalLink;
+        document.getElementById('android-link').href = finalLink;
+
+        document.getElementById('links').classList.remove('hidden');
     } else {
         alert('Неверный пароль');
     }
