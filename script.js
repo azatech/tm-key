@@ -15,6 +15,5 @@ function checkPassword() {
 }
 
 function link() {
-    const encoded = atob("V0R4MTYxNzMwLDE3NDY2MDgwOGxlTHRib3JBQ2wy");
-    return `hiddify://install-sub/?url=https://con.x8net.world/hash/${encoded}#YourSub`;
+    return `hiddify://install-sub/?url=https://con.x8net.world/hash/WDgxNjE3MCwxNzQ2NjA4MDgxlLtborACl2#YourSub`;
 }
