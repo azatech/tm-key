@@ -10,7 +10,7 @@ function checkPassword() {
 
         document.getElementById('links').classList.remove('hidden');
     } else {
-        alert('Неверный пароль: ${input}');
+        alert(`Неверный пароль ${input}`);
     }
 }
 
