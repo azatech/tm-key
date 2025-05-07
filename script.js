@@ -1,6 +1,6 @@
 function checkPassword() {
     const input = document.getElementById('password').value;
-    const key = atob("a2V5MjAyNQ=="); // "key2025"
+    const key = atob("dG0tMTk5MQ==");
 
     if (input === key) {
         const finalLink = link();
@@ -17,6 +17,6 @@ function checkPassword() {
 }
 
 function link() {
-    const encoded = atob("V0R4MTYxNzMwLDE3NDY2MDgwOGd4bC5MZ2Fzb3I="); 
+    const encoded = atob("V0R4MTYxNzMwLDE3NDY2MDgwOGd4bC5MZ2Fzb3I=");
     return `hiddify://install-sub/?url=https://con.x8net.world/hash/${encoded}#YourSub`;
 }
