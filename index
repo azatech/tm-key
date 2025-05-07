@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔗 Установка конфигурации Hiddify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #007bff;
+        }
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>🔗 Установка конфигурации Hiddify</h1>
+<p>Нажмите на соответствующую ссылку ниже для импорта конфигурации в приложение <strong>Hiddify</strong>:</p>
+<a href="hiddify://install-sub/?url=https://con.x8net.world/hash/WDgxNjE3MCwxNzQ2NjA4MDgxlLtborACl2#YourSub">📱 Установить конфигурацию в Hiddify (iOS – iPhone)</a>
+<a href="hiddify://install-sub/?url=https://con.x8net.world/hash/WDgxNjE3MCwxNzQ2NjA4MDgxlLtborACl2#YourSub">📱 Установить конфигурацию в Hiddify (Android – Samsung, Xiaomi)</a>
+<p class="note">⚠️ Убедитесь, что приложение <strong>Hiddify</strong> установлено на вашем устройстве перед использованием этих ссылок.</p>
+</body>
+</html>
