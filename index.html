@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔗 Установка конфигурации Hiddify</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔗 Установка конфигурации Hiddify</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<h1>🔐 Доступ к конфигурации Hiddify</h1>
-<p>Введите пароль, чтобы получить доступ:</p>
-<input type="password" id="password" placeholder="Пароль">
-<button onclick="checkPassword()">Показать</button>
+  <h1>🔐 Введите пароль для доступа</h1>
+  <input type="password" id="password" placeholder="Пароль" />
+  <button onclick="checkPassword()">Войти</button>
 
-<div id="links" style="display:none;"></div>
+  <div id="links" class="hidden">
+    <h2>🔗 Установка конфигурации Hiddify</h2>
+    <a id="ios-link" href="#">📱 Установить Hiddify (iOS)</a>
+    <a id="android-link" href="#">📱 Установить Hiddify (Android)</a>
+    <p class="note">⚠️ Убедитесь, что приложение <strong>Hiddify</strong> установлено.</p>
+  </div>
 
-<p class="note">⚠️ Убедитесь, что приложение <strong>Hiddify</strong> установлено.</p>
-
+  <script src="script.js"></script>
 </body>
 </html>
