@@ -2,6 +2,8 @@ function checkPassword() {
     const input = document.getElementById('password').value;
     const key = atob("a2V5MjAyNQ==");
 
+    alert(key);
+
     if (input === key) {
         const finalLink = link();
 
