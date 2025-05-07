@@ -12,7 +12,7 @@ function checkPassword() {
 
         document.getElementById('links').classList.remove('hidden');
     } else {
-        alert('Неверный пароль');
+        // alert('Неверный пароль 2222');
     }
 }
 
