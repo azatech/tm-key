@@ -2,8 +2,6 @@ function checkPassword() {
     const input = document.getElementById('password').value;
     const key = atob("a2V5MjAyNQ==");
 
-    alert(key);
-
     if (input === key) {
         const finalLink = link();
 
@@ -12,7 +10,7 @@ function checkPassword() {
 
         document.getElementById('links').classList.remove('hidden');
     } else {
-        // alert('Неверный пароль 2222');
+        alert('Неверный пароль: ${input}');
     }
 }
 
